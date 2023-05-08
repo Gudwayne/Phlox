@@ -1,0 +1,43 @@
+.arrt{
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+
+
+    .sticka .links{
+        display: none;
+    }
+
+    .arrt{
+        flex-direction: column;
+    }
+
+    .sticka .toggle_btn{
+        display: block;
+    }
+
+    .dropdown_menu{
+        display: block;
+    }
+
+    .articles .arrt .emag img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .arrt .teex{
+        width: 75%;
+    }
+}
+
+@media (max-width: 576px) {
+    section#hero {
+        height: calc(100vh - 250px);
+    }
+
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
